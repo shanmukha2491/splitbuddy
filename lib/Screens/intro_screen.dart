@@ -25,7 +25,7 @@ class IntroPage extends StatelessWidget {
 
                   const SizedBox(height: 60,),
                   const Text(
-                        "S P L I T   B U D D Y",
+                        "T R A V E L  S P L I T",
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
@@ -43,7 +43,7 @@ class IntroPage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(bottom: 40),
                 child: StartedButton(onTap: (){
-                  Navigator.pushNamed(context, "/homePage");
+                  Navigator.pushNamed(context, "/authPage");
                 }),
               )
             ],
